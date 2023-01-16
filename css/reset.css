@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Insu-Song reset -S */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, 
+img, strong, ol, ul, li, fieldset, form, label, 
+legend footer, header, section {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+	overflow-x: hidden !important;
+
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* Insu-Song reset -E */
