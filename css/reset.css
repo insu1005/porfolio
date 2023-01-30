@@ -2,25 +2,27 @@
 
 /* Insu-Song reset -S */
 
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, 
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,  
 img, strong, ol, ul, li, fieldset, form, label, 
 legend footer, header, section {
     margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 
 body {
-    line-height: 1;
+	font-family: 'Playfair Display', serif; line-height: 1;
 	overflow-x: hidden !important;
 
 }
-
+a, em { font: inherit; }
 ol, ul {
     list-style: none;
 }
+
+h1 { font-size: 5rem }
+h2 { font-size: 2rem }
 
 /* Insu-Song reset -E */
