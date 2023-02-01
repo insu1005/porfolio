@@ -51,6 +51,9 @@ footer {height: 50vh}
   color: white;
 }
 
+.loader h1 { font-size: 100px; }
+.loader h2 { font-size: 80px; text-align: center; }
+
 /* loader-superman-css */
 
 .body {

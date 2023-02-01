@@ -33,7 +33,7 @@ body {
 
 .first-section {
   box-sizing: border-box;
-	padding: 200px 0 20px;
+	padding: 200px 0 220px;
 }
 .first-section > h1 { 
   margin-bottom: 300px;
@@ -293,7 +293,11 @@ canvas {
 }
 .introduction-box div p { font-weight: 600; font-size: 28px; line-height: 40px; }
 .introduction-box .me + .me {margin-top: 40px;}
-.intro-text-box { display: flex; }
+.intro-text-box { 
+  padding-top: 60px;
+  display: flex; 
+  width: 100%;
+}
 .intro-text-box .personal-box { margin-right: 60px; }
 .skill-box { width: 100%; }
 .my-skill{width: 100%;
@@ -369,8 +373,15 @@ body {
   flex-wrap: nowrap;
   padding: 0;
   overflow: hidden;
-  background-color: #ddd;
 }
+#panels-container #panel-1 { background-color: #d4261f; }
+#panels-container #panel-2 { background-color: #fff; }
+#panels-container #panel-3 { background-color: #eb6b00; }
+#panels-container #panel-4 { background-color: #51b1ff; }
+#panels-container #panel-5 { background-color: #ebd400; }
+#panels-container #panel-6 { background-color: #4d453f; }
+#panels-container #panel-7 { background-color: #9df077; }
+#panels-container .container { width: 100%;}
 #panels #panels-container .panel {
   position: relative;
   width: 100%;
@@ -381,7 +392,6 @@ body {
   display: flex;
   color: #333;
   text-align: left;
-  border-right: 1px solid #f00;
 }
 #panels #panels-container .panel img {
   max-width: 100%;
