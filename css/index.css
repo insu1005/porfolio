@@ -43,9 +43,6 @@ body {
   margin: 0 auto; 
   width: 90%;
 }
-.introduction-box figure { 
-  width: 30%; 
-}
 .introduction-box figure img { width: 100%; }
 
 
@@ -219,9 +216,10 @@ body {
 
 /* profile title svg */
 
+.mytitle { margin-bottom: 200px; }
+
 .svg-text {
   width: 100%;
-  margin-bottom: 200px;
   position: relative;
   transform: rotateX(30deg);
   font-size: 280px;
@@ -280,10 +278,50 @@ canvas {
 /* profile picture effect */
 
 /* introduction-box */
-
-.introduction-box figure { position: relative; }
+.introduction-box {display: flex;}
+.introduction-box figure { 
+  width: 100%;
+  margin-right: 10%;
+  position: relative; 
+}
 .introduction-box figure canvas { 
   position: absolute; right: -26%; top: -2%;
+}
+.introduction-box div h1 { 
+  margin-bottom: 30px;
+  font-size: 38px; color: #000;
+}
+.introduction-box div p { font-weight: 600; font-size: 28px; line-height: 40px; }
+.introduction-box .me + .me {margin-top: 40px;}
+.intro-text-box { display: flex; }
+.intro-text-box .personal-box { margin-right: 60px; }
+.skill-box { width: 100%; }
+.my-skill{width: 100%;
+  display: flex;
+}
+.skill-detail { 
+    width: 60px; height: 60px;
+  background-image: url(../img/html.png); background-position: center center; background-repeat: no-repeat; background-size: contain;
+  animation: heartbeat 1.5s infinite;
+}
+.skill-detail + .skill-detail { margin-left: 20px; }
+.skill-detail:nth-child(2){background-image: url(../img/css.png);}
+.skill-detail:nth-child(3){background-image: url(../img/javascript.png);}
+.skill-detail:nth-child(4){background-image: url(../img/jquery.png);}
+.skill-detail:nth-child(5){
+  margin-left: 37px;
+  background-image: url(../img/photoshop.png);
+}
+.skill-detail:nth-child(6){
+  margin-left: 37px;
+  background-image: url(../img/illustrator.png);
+}
+.skill-detail:nth-child(7){background-image: url(../img/figma.png);}
+
+@keyframes heartbeat {
+  0% { transform: scale(1);}
+  50% { transform: scale(1.3);}
+  100% { transform: scale(1);}
 }
 
 /* introduction-box */

@@ -37,12 +37,6 @@ li {
 /* header {height: 100vh} */
 footer {height: 50vh}
 
-:-webkit-any-link { color: #ff9500; }
-
-:-moz-any-link { color: #ff9500; }
-
-:any-link { color: #ff9500; }
-
 .df {display: flex}
 .aic {align-items: center}
 .jcc {justify-content: center}

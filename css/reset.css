@@ -19,7 +19,7 @@ body {
 	overflow-x: hidden !important;
 	overflow-x: hidden;
 }
-a, em { font: inherit; text-decoration: none;}
+a, em { font: inherit; text-decoration: none; color: inherit;}
 ol, ul {
     list-style: none;
 }
