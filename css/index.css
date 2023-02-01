@@ -1,10 +1,11 @@
 @charset "UTF-8";
-@font-face { font-family: 'dragon_is_comingregular'; font-weight: normal; font-style: normal;}
-
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
 /* common */
 .connect { 
   display: flex;
-  position: absolute; right: 20%; bottom: 10%; }
+  position: absolute; right: 20%; bottom: 10%; 
+}
 .connect-common { 
   display: flex; justify-content: center; align-items: center; 
   width: 120px; height: 50px;
@@ -15,7 +16,10 @@
 }
 .connect-common + .connect-common { margin-left: 40px;}
 
-.connect-common:hover { transform: scale(1.3); }
+.connect-common:hover { 
+  border: 3px solid #000;
+  transform: scale(1.3); 
+}
 /* common */
 
 body {
@@ -344,12 +348,12 @@ canvas {
 
 
 /* Most of these styles could be removed but are for the demo to look better */
-
+/* 
 html,
 body {
   margin: 0;
   height: 100%;
-}
+} */
 
 
 .full-screen {
@@ -574,7 +578,85 @@ body {
 }
 /* pizza sec */
 
+/* daehan sec */
 #panels-container #panel-2 { background-color: #fff; }
+.plate {
+  width: 50%;
+  position: absolute; left: 5%; top: 5%;
+  
+}
+.shadow1 {
+  color: rgb(13, 9, 142);
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 rgb(255, 255, 255),
+    3px -3px 0 rgb(255, 255, 255),
+    -3px 3px 0 rgb(255, 255, 255),
+    3px 3px 0 rgb(255, 255, 255),
+    4px 4px 0 rgb(0, 0, 0),
+    5px 5px 0 rgb(0, 0, 0),
+    6px 6px 0 rgb(0, 0, 0),
+    7px 7px 0 rgb(0, 0, 0);
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+.script {
+  font-family: "Seaweed Script";
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-weight: 700; font-size: 40px;
+  position: relative;
+  margin:0;
+}
+.script span {
+  background-color: rgb(255, 255, 255);
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 8px solid rgb(255, 0, 0);
+}
+
+.text2 {
+  font-size: 169px; line-height: 200px;
+  animation: heartbeat2 1.7s infinite;
+}
+
+@keyframes heartbeat2 {
+  0% { transform: scale(1);}
+  50% { transform: scale(1.1);}
+  100% { transform: scale(1);}
+}
+.daehan-model1 { 
+  width: 550px; height: 340px;
+  background-image: url(../img/daehan-model.png); background-size: cover;
+  position: absolute; left: 0; bottom: 0; 
+}
+.daehan-intro {
+  width: 600px; height: 700px;
+  border: 8px solid #002951;
+  background-image: url(../img/daehan-intro.png); background-size: cover; background-repeat: no-repeat;
+  position: absolute; right: 6%; top: 10%;
+}
+.daehan-text-box { 
+  width: 40%; 
+  position: absolute; left: 8%; bottom: 40%;
+}
+.daehan-text-box h1 { font-size: 50px; margin-bottom: 30px; }
+.daehan-text-box p { font-weight: 600; font-size: 24px; line-height: 40px; }
+.daehan .connect { right: 43%; bottom: 22%;}
+/* daehan sec */
 #panels-container #panel-3 { background-color: #eb6b00; }
 #panels-container #panel-4 { background-color: #51b1ff; }
 #panels-container #panel-5 { background-color: #ebd400; }
