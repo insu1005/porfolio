@@ -1,20 +1,17 @@
-.skyline {
-    height: 580px;
-    background: url(https://finnovate.io/images/hero.svg) no-repeat;
-    background-position: center 100px;
-    position: relative; 
-    overflow-x: hidden; 
-  }
-  .train {
-    height: 32px;
-    position: absolute;
-    bottom: 143px;
-    left: 50%;
-    transform: translateX(-800px);  
-    animation: train-move 20s infinite; 
-  }
-  @keyframes train-move {
-    0% {transform: translateX(-800px)}
-    50% {transform: translateX(400px)}   
-    100% {transform: translateX(-800px)} 
-  }
+html { height: 100%; }
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background: #425;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: move;
+}
