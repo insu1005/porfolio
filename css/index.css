@@ -538,7 +538,7 @@ body {
 /* pizza sec tit */
 /* .pizza-box { display: flex; } */
 .pizza-img-box { 
-  width: 38%; 
+  width: 710px; height: 580px; 
   position: absolute; left: 7%; bottom: 5%;
 } 
 .pizza-img-box img { 
@@ -658,7 +658,7 @@ body {
 /* soma sec */
 #panels-container #panel-3 { background-color: #eb6b00; }
 .soma-tit {
-  font-family: "CoreCircus", sans-serif; font-size: 8vw; line-height: 10vw; color: #ffffff; text-align: center; text-transform: uppercase; 
+  font-family: "CoreCircus", sans-serif; font-size: 128px; line-height: 160px; color: #ffffff; text-align: center; text-transform: uppercase; 
   text-shadow: -1px -1px 0 #6e1f58, 1px -1px 0 #6e1f58, -1px 1px 0 #6e1f58, 1px 1px 0 #6e1f58, 1px 0px 0px #000000, 0px 1px 0px #000000, 2px 1px 0px #000000, 1px 2px 0px #65f283, 3px 2px 0px #000000, 2px 3px 0px #000000, 4px 3px 0px #000000, 3px 4px 0px #000000, 5px 4px 0px #000000, 3px 5px 0px #6e1f58, 6px 5px 0px #6e1f58, -1px 2px 0 black, 0 3px 0 #6e1f58, 1px 4px 0 #6e1f58, 2px 5px 0px #6e1f58, 2px -1px 0 #6e1f58, 3px 0 0 #6e1f58, 4px 1px 0 #6e1f58, 5px 2px 0px #6e1f58, 6px 3px 0 #6e1f58, 7px 4px 0 #6e1f58, 10px 10px 4px #dac249;
   position: absolute;
   top: 0%; left: 5%;
@@ -1813,7 +1813,7 @@ body {
 #panels-container #panel-4 { background-color: #51b1ff; }
 /* figma-tit */
 .figma-tit {
-  font-family: "CoreCircus", sans-serif; font-size: 10vw; line-height: 1; text-align: center;
+  font-family: "CoreCircus", sans-serif; font-size: 160px; line-height: 1; text-align: center;
   text-transform: uppercase; text-shadow: 1px 0px 0px #67c2c5, 0px 1px 0px #67c2c5, 2px 1px 0px #67c2c5, 1px 2px 0px #67c2c5, 3px 2px 0px #67c2c5, 2px 3px 0px #67c2c5, 4px 3px 0px #67c2c5, 3px 4px 0px #67c2c5, 5px 4px 0px #67c2c5, 4px 5px 0px #67c2c5, 6px 5px 0px #67c2c5, 5px 6px 0px #67c2c5, 7px 6px 0px #67c2c5, 6px 7px 0px #67c2c5, 8px 7px 0px #aff1f9, 7px 8px 0px #aff1f9, 9px 8px 0px #aff1f9, 8px 9px 0px #aff1f9, 10px 9px 0px #aff1f9, 9px 10px 0px #aff1f9, 11px 10px 0px #aff1f9, 10px 11px 0px #aff1f9;
   color: #61c0c8;
   position: absolute;
