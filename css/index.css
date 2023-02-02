@@ -291,10 +291,12 @@ canvas {
 /* profile picture effect */
 
 /* introduction-box */
+.introduction-box {display: flex;}
 .introduction-box figure { 
-  position: absolute; left: 4%; top:150%;
+  width: 600px !important; height: 100%;
+  position: absolute; left: 5%;
 }
-.introduction-box figure img { width: 90%;}
+.introduction-box figure img { width: 100%;}
 .introduction-box figure canvas { 
   position: absolute; right: -26%; top: -2%;
 }
@@ -1923,7 +1925,7 @@ body {
 .illu {
   width: 300px; height: 450px;
   background-image: url(../img/songinsu-isometric.png); background-size: cover;
-  bottom:14%; right: 23%;
+  bottom:10%; right: 20%;
 }
 .work::before {content: "";
   width: 50px; height: 50px;
