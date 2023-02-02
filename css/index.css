@@ -2498,3 +2498,7 @@ body {
   bottom: 2rem;
   right: 2rem;
 }
+
+/* slide */
+.demo > .wrapper > li > img { object-fit: cover; }
+/* slide */
