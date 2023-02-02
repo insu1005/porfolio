@@ -1,51 +1,4 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Arvo:700);
-@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
-@font-face {
-  font-family: "CoreCircus2DDot1";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.eot");
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_1_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: "CoreCircus";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot");
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: "CoreCircusPierrot4";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.eot");
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: "CoreCircus2DIn";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BFA_1_0.eot");
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BFA_1_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BFA_1_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BFA_1_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BFA_1_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: "CoreCircus";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot");
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Rig Bold Coarse";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Rig-BoldCoarse.otf");
-}
-@font-face {
-  font-family: "Rig Bold Extrude";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Rig-BoldExtrude.otf");
-}
-@font-face {
-  font-family: "Rig Bold Shadow";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Rig-BoldShadow.otf");
-}
-@font-face {
-  font-family: "Rig Bold Face";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Rig-BoldFace.otf");
-}
-@font-face {
-  font-family: "Rig Bold Inline";
-  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Rig-BoldInline.otf");
-}
 /* common */
 .connect { 
   display: flex;
@@ -2051,10 +2004,462 @@ body {
   font-size: 50px; color: #fff;
 }
 .dy-text-box p { font-weight: 800; font-size: 24px; color: #fff; line-height: 40px;}
-
-
 /* dynamic sec */
+/* hover sec */
 #panels-container #panel-7 { background-color: #9df077; }
+/* hover tit */
+.hover-tit {
+  position: absolute; left: 33%; top: 20%;
+}
+.hover-tit h1 {
+  text-transform: uppercase;
+  transform: translate(-50%, -50%) skew(10deg) rotate(-10deg);
+  font-size: 7vw;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  text-rendering: optimizeLegibility;
+  font-weight: 900;
+  color: rgba(255, 158, 177, 0.5);
+  text-shadow: 1px 4px 6px #e6e2df, 0 0 0 #66303a, 1px 4px 6px #e6e2df;
+  white-space: nowrap;
+}
+.hover-tit h1:before {
+  content: attr(data-heading);
+  position: absolute;
+  left: -2%;
+  top: -4.8%;
+  overflow: hidden;
+  width: 100%;
+  height: 50%;
+  color: #fbf7f4;
+  transform: translate(1.6vw, 0) skew(-13deg) scale(1, 1.2);
+  z-index: 2;
+  text-shadow: 2px -1px 6px rgba(0, 0, 0, 0.2);
+}
+.hover-tit h1:after {
+  content: attr(data-heading);
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  color: #d3cfcc;
+  transform: translate(0vw, 0) skew(13deg) scale(1, 0.8);
+  -webkit-clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+  text-shadow: 2px -1px 6px rgba(0, 0, 0, 0.3);
+}
+/* hover tit */
+.hover01{
+  width: 400px; height: 260px;
+  background-color: #000;
+  position: absolute; left: 20%; top: 40%;
+  box-shadow: 0 0 18px #000;
+  transition: all 0.3s;
+  overflow: hidden;
+  cursor: pointer;
+}
+.hover01:hover {transform: scale(1.3);}
+.hover01-header{
+  width: 100%; height: 50px;
+  padding: 0 20px; box-sizing: border-box;
+  line-height: 50px;
+  background-color: #fff;
+  position: absolute; left: 0; bottom: 0; z-index: 10;
+  transition: all 0.3s;
+  transform: translate(0, 50px);
+}
+.hover01-tit{
+  float: left;
+  font-weight: 800; font-size: 20px; 
+  transition: all 0.3s;
+  transform: translate(0, 50px);
+}
+
+.hover01-sns{
+  float: right;
+}
+.hover01-sns li{
+  width: clamp( 26px, 16px, 1px );
+  float: left;
+  padding-top: 5px;
+  padding-right: 0;
+  transition: all 0.3s;
+  transform: translate(0, 50px);
+}
+.hover01-sns li:nth-child(2) { transition-delay: 0.1s;}
+.hover01-sns li:nth-child(3) { transition-delay: 0.2s;}
+
+
+.hover01-gnb{
+  width: 24px; height: 33px;
+  position: absolute; right: 20px; top: 20px; z-index: 10;
+  cursor: pointer;
+}
+.hover01-gnb span{
+  width: 24px; height: 3px;
+  position: absolute; left: 0;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+.hover01-gnb span:nth-child(1){top: 0;}
+.hover01-gnb span:nth-child(2){top: 8px;}
+.hover01-gnb span:nth-child(3){top: 8px;}
+.hover01-gnb span:nth-child(4){top: 16px;}
+
+
+.hover01-txt{
+  padding: 0 50px; box-sizing: border-box;
+  font-weight:800; font-size: 18px; line-height: 24px; color: #fff; text-align: center;
+  letter-spacing: -1px;
+  position: absolute; left:0; top: 120px; z-index: 10;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.hover01-img{ transition: all 0.3s;}
+.hover01-img img{
+  width: 100%;
+}
+
+.hover01:hover .hover01-header {
+  transform: translate( 0, 0);
+}
+.hover01:hover .hover01-tit {
+  transform: translate( 0, 0);
+}
+.hover01:hover .hover01-sns li { 
+  transform: translate( 0, 0);
+}
+
+.hover01:hover .hover01-txt{
+  top: 90px;
+  opacity: 1;
+}
+.hover01:hover .hover01-img{
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.hover01-gnb:hover span:nth-child(1){opacity: 0;}
+.hover01-gnb:hover span:nth-child(2){transform: rotate(45deg);}
+.hover01-gnb:hover span:nth-child(3){transform: rotate(-45deg);}
+.hover01-gnb:hover span:nth-child(4){opacity: 0;}
+
+
+.hover02{ 
+  width: 400px; height: 260px;
+  background-color: #000;
+  font-weight:800; color: #fff;
+  box-shadow: 0 0 18px #000;
+  position: absolute; right: 30%; top: 40%;
+  overflow: hidden;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.hover02:hover {transform: scale(1.3);}
+.hover02-tit{
+  width: 100%;
+  padding: 0 50px; box-sizing: border-box;
+  font-size: 24px; line-height: 1px; text-align: center;
+  position: absolute; left: 0; top: 120px; z-index: 10;
+  transition: all 0.3s;
+}
+.hover02-txt{
+  width: 100%;
+  padding: 0 40px; box-sizing: border-box;
+  text-align: center;
+  position: absolute; left: 0; top: 160px; z-index: 10;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.hover02-line li{
+  width: clamp( 16px, 16px, 16px );
+  padding-right: 0;
+  background-color: #fff;
+  position: absolute; z-index: 10;
+  transition: all 0.1s;
+}
+.hover02-line li:nth-child(1){
+  width: 0; height: 5px;
+  left: 20px; top: 20px;
+}
+.hover02-line li:nth-child(2){
+  width: 5px; height: 0;
+  left: 375px; top: 20px;
+  transition-delay: 0.1s;
+}
+.hover02-line li:nth-child(3){
+  width: 0; height: 5px;
+  left: 380px; top:240px;
+  transform:rotate(180deg); transform-origin: left top;
+  transition-delay: 0.2s;
+}
+.hover02-line li:nth-child(4){
+  width: 5px; height: 0;
+  left: 20px; top: 240px;
+  transition-delay: 0.3s;
+  transform: rotate(180deg); transform-origin: left top;
+}
+.hover02-img{
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
+.hover02-img img{
+  width: 100%;
+}
+
+.hover02:hover .hover02-tit{top: 100px;}
+
+.hover02:hover .hover02-txt{ 
+  top: 140px;
+  opacity: 1;
+}
+
+.hover02:hover li:nth-child(1) {width:360px;}
+.hover02:hover li:nth-child(2) {height:220px;}
+.hover02:hover li:nth-child(3) {width:360px;}
+.hover02:hover li:nth-child(4) {height:220px;}
+
+.hover02:hover .hover02-img{
+  opacity: 0.5; 
+  transform: scale(1);
+}
+/* hover text-box */
+.hover-text-box { position: absolute; left: 25%; bottom:10%;}
+.hover-text-box h1 { 
+  margin-bottom: 20px;
+  font-size: 50px; color: #000;
+  -webkit-text-stroke: 2px #fff;
+}
+.hover-text-box p { font-weight: 800; font-size: 24px; color: #000; line-height: 40px; -webkit-text-stroke: 1px #fff;}
+/* hover text-box */
+/* hover sec */
+/* prototype sec */
+#panels-container #panel-8 { background-color: #f7ff83; }
+/* pro-tit */
+#ui {
+  position: absolute; left: 45%; top: 15%;
+  transform-style: preserve-3d;
+}
+#ui .text {
+  position: absolute;
+  font-weight: 800; font-size: 10rem;
+  color: #fff;
+  line-height: 15rem;
+  padding: 20px 0;
+  mix-blend-mode: screen;
+  transform-style: preserve-3d;
+}
+#ui .text:nth-child(1) {
+  -webkit-clip-path: polygon(-30% 0, -20% 0, 20% 100%, 0% 100%);
+          clip-path: polygon(-30% 0, -20% 0, 20% 100%, 0% 100%);
+  -webkit-animation: wave 2000ms -10000ms ease-in-out infinite alternate;
+          animation: wave 2000ms -10000ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(2) {
+  -webkit-clip-path: polygon(-25% 0, -15% 0, 25% 100%, 5% 100%);
+          clip-path: polygon(-25% 0, -15% 0, 25% 100%, 5% 100%);
+  -webkit-animation: wave 2000ms -9800ms ease-in-out infinite alternate;
+          animation: wave 2000ms -9800ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(3) {
+  -webkit-clip-path: polygon(-20% 0, -10% 0, 30% 100%, 10% 100%);
+          clip-path: polygon(-20% 0, -10% 0, 30% 100%, 10% 100%);
+  -webkit-animation: wave 2000ms -9600ms ease-in-out infinite alternate;
+          animation: wave 2000ms -9600ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(4) {
+  -webkit-clip-path: polygon(-15% 0, -5% 0, 35% 100%, 15% 100%);
+          clip-path: polygon(-15% 0, -5% 0, 35% 100%, 15% 100%);
+  -webkit-animation: wave 2000ms -9400ms ease-in-out infinite alternate;
+          animation: wave 2000ms -9400ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(5) {
+  -webkit-clip-path: polygon(-10% 0, 0% 0, 40% 100%, 20% 100%);
+          clip-path: polygon(-10% 0, 0% 0, 40% 100%, 20% 100%);
+  -webkit-animation: wave 2000ms -9200ms ease-in-out infinite alternate;
+          animation: wave 2000ms -9200ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(6) {
+  -webkit-clip-path: polygon(-5% 0, 5% 0, 45% 100%, 25% 100%);
+          clip-path: polygon(-5% 0, 5% 0, 45% 100%, 25% 100%);
+  -webkit-animation: wave 2000ms -9000ms ease-in-out infinite alternate;
+          animation: wave 2000ms -9000ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(7) {
+  -webkit-clip-path: polygon(0% 0, 10% 0, 50% 100%, 30% 100%);
+          clip-path: polygon(0% 0, 10% 0, 50% 100%, 30% 100%);
+  -webkit-animation: wave 2000ms -8800ms ease-in-out infinite alternate;
+          animation: wave 2000ms -8800ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(8) {
+  -webkit-clip-path: polygon(5% 0, 15% 0, 55% 100%, 35% 100%);
+          clip-path: polygon(5% 0, 15% 0, 55% 100%, 35% 100%);
+  -webkit-animation: wave 2000ms -8600ms ease-in-out infinite alternate;
+          animation: wave 2000ms -8600ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(9) {
+  -webkit-clip-path: polygon(10% 0, 20% 0, 60% 100%, 40% 100%);
+          clip-path: polygon(10% 0, 20% 0, 60% 100%, 40% 100%);
+  -webkit-animation: wave 2000ms -8400ms ease-in-out infinite alternate;
+          animation: wave 2000ms -8400ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(10) {
+  -webkit-clip-path: polygon(15% 0, 25% 0, 65% 100%, 45% 100%);
+          clip-path: polygon(15% 0, 25% 0, 65% 100%, 45% 100%);
+  -webkit-animation: wave 2000ms -8200ms ease-in-out infinite alternate;
+          animation: wave 2000ms -8200ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(11) {
+  -webkit-clip-path: polygon(20% 0, 30% 0, 70% 100%, 50% 100%);
+          clip-path: polygon(20% 0, 30% 0, 70% 100%, 50% 100%);
+  -webkit-animation: wave 2000ms -8000ms ease-in-out infinite alternate;
+          animation: wave 2000ms -8000ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(12) {
+  -webkit-clip-path: polygon(25% 0, 35% 0, 75% 100%, 55% 100%);
+          clip-path: polygon(25% 0, 35% 0, 75% 100%, 55% 100%);
+  -webkit-animation: wave 2000ms -7800ms ease-in-out infinite alternate;
+          animation: wave 2000ms -7800ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(13) {
+  -webkit-clip-path: polygon(30% 0, 40% 0, 80% 100%, 60% 100%);
+          clip-path: polygon(30% 0, 40% 0, 80% 100%, 60% 100%);
+  -webkit-animation: wave 2000ms -7600ms ease-in-out infinite alternate;
+          animation: wave 2000ms -7600ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(14) {
+  -webkit-clip-path: polygon(35% 0, 45% 0, 85% 100%, 65% 100%);
+          clip-path: polygon(35% 0, 45% 0, 85% 100%, 65% 100%);
+  -webkit-animation: wave 2000ms -7400ms ease-in-out infinite alternate;
+          animation: wave 2000ms -7400ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(15) {
+  -webkit-clip-path: polygon(40% 0, 50% 0, 90% 100%, 70% 100%);
+          clip-path: polygon(40% 0, 50% 0, 90% 100%, 70% 100%);
+  -webkit-animation: wave 2000ms -7200ms ease-in-out infinite alternate;
+          animation: wave 2000ms -7200ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(16) {
+  -webkit-clip-path: polygon(45% 0, 55% 0, 95% 100%, 75% 100%);
+          clip-path: polygon(45% 0, 55% 0, 95% 100%, 75% 100%);
+  -webkit-animation: wave 2000ms -7000ms ease-in-out infinite alternate;
+          animation: wave 2000ms -7000ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(17) {
+  -webkit-clip-path: polygon(50% 0, 60% 0, 100% 100%, 80% 100%);
+          clip-path: polygon(50% 0, 60% 0, 100% 100%, 80% 100%);
+  -webkit-animation: wave 2000ms -6800ms ease-in-out infinite alternate;
+          animation: wave 2000ms -6800ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(18) {
+  -webkit-clip-path: polygon(55% 0, 65% 0, 105% 100%, 85% 100%);
+          clip-path: polygon(55% 0, 65% 0, 105% 100%, 85% 100%);
+  -webkit-animation: wave 2000ms -6600ms ease-in-out infinite alternate;
+          animation: wave 2000ms -6600ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(19) {
+  -webkit-clip-path: polygon(60% 0, 70% 0, 110% 100%, 90% 100%);
+          clip-path: polygon(60% 0, 70% 0, 110% 100%, 90% 100%);
+  -webkit-animation: wave 2000ms -6400ms ease-in-out infinite alternate;
+          animation: wave 2000ms -6400ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(20) {
+  -webkit-clip-path: polygon(65% 0, 75% 0, 115% 100%, 95% 100%);
+          clip-path: polygon(65% 0, 75% 0, 115% 100%, 95% 100%);
+  -webkit-animation: wave 2000ms -6200ms ease-in-out infinite alternate;
+          animation: wave 2000ms -6200ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(21) {
+  -webkit-clip-path: polygon(70% 0, 80% 0, 120% 100%, 100% 100%);
+          clip-path: polygon(70% 0, 80% 0, 120% 100%, 100% 100%);
+  -webkit-animation: wave 2000ms -6000ms ease-in-out infinite alternate;
+          animation: wave 2000ms -6000ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(22) {
+  -webkit-clip-path: polygon(75% 0, 85% 0, 125% 100%, 105% 100%);
+          clip-path: polygon(75% 0, 85% 0, 125% 100%, 105% 100%);
+  -webkit-animation: wave 2000ms -5800ms ease-in-out infinite alternate;
+          animation: wave 2000ms -5800ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(23) {
+  -webkit-clip-path: polygon(80% 0, 90% 0, 130% 100%, 110% 100%);
+          clip-path: polygon(80% 0, 90% 0, 130% 100%, 110% 100%);
+  -webkit-animation: wave 2000ms -5600ms ease-in-out infinite alternate;
+          animation: wave 2000ms -5600ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(24) {
+  -webkit-clip-path: polygon(85% 0, 95% 0, 135% 100%, 115% 100%);
+          clip-path: polygon(85% 0, 95% 0, 135% 100%, 115% 100%);
+  -webkit-animation: wave 2000ms -5400ms ease-in-out infinite alternate;
+          animation: wave 2000ms -5400ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(25) {
+  -webkit-clip-path: polygon(90% 0, 100% 0, 140% 100%, 120% 100%);
+          clip-path: polygon(90% 0, 100% 0, 140% 100%, 120% 100%);
+  -webkit-animation: wave 2000ms -5200ms ease-in-out infinite alternate;
+          animation: wave 2000ms -5200ms ease-in-out infinite alternate;
+}
+#ui .text:nth-child(26) {
+  -webkit-clip-path: polygon(95% 0, 105% 0, 145% 100%, 125% 100%);
+          clip-path: polygon(95% 0, 105% 0, 145% 100%, 125% 100%);
+  -webkit-animation: wave 2000ms -5000ms ease-in-out infinite alternate;
+          animation: wave 2000ms -5000ms ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes wave {
+  0% {
+    transform: translate(-50%, -50%) scale(0.9) rotateX(20deg) rotateY(20deg) rotateZ(0deg);
+    color: #001e64;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    color: #32e6ff;
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: translate(-50%, -50%) scale(0.9) rotateX(20deg) rotateY(20deg) rotateZ(0deg);
+    color: #001e64;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    color: #32e6ff;
+  }
+}
+/* pro-tit */
+.rebox { transition: all 0.3s; }
+.rebox:hover { transform: scale(1.3); }
+.respon01 { 
+  width: 300px; height: 300px;
+  background-image: url(../img/respon01.jpg); background-size: contain;
+  position: absolute; left: 40%; bottom: 30%;
+  box-shadow: 0 0 18px #000;
+}
+.respon02 { 
+  width: 290px; height: 174px;
+  background-image: url(../img/respon02.jpg); background-size: cover;
+  position: absolute; left: 20%; bottom: 30%;
+  box-shadow: 0 0 18px #000;
+}
+.respon03 { 
+  width: 320px; height: 180px;
+  background-image: url(../img/respon03.jpg); background-size: contain;
+  position: absolute; left: 60%; bottom: 30%;
+  box-shadow: 0 0 18px #000;
+}
+.pro-text-box { position: absolute; left: 25%; bottom:10%;}
+.pro-text-box h1 { 
+  margin-bottom: 20px;
+  font-weight: 800; font-size: 50px; color: #000;
+}
+.pro-text-box p { font-weight: 800; font-size: 24px; color: #000; line-height: 40px;}
+/* prototype sec */
 #panels-container .container { width: 100%;}
 #panels #panels-container .panel {
   position: relative;
