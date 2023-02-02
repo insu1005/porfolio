@@ -16,6 +16,36 @@
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.eot");
   src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_13_0.ttf") format("truetype");
 }
+@font-face {
+  font-family: "CoreCircus2DIn";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BFA_1_0.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BFA_1_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BFA_1_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BFA_1_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BFA_1_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CoreCircus";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.eot?#iefix") format("embedded-opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff2") format("woff2"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/333BF4_8_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Rig Bold Coarse";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Rig-BoldCoarse.otf");
+}
+@font-face {
+  font-family: "Rig Bold Extrude";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Rig-BoldExtrude.otf");
+}
+@font-face {
+  font-family: "Rig Bold Shadow";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Rig-BoldShadow.otf");
+}
+@font-face {
+  font-family: "Rig Bold Face";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Rig-BoldFace.otf");
+}
+@font-face {
+  font-family: "Rig Bold Inline";
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Rig-BoldInline.otf");
+}
 /* common */
 .connect { 
   display: flex;
@@ -675,16 +705,11 @@ body {
 /* soma sec */
 #panels-container #panel-3 { background-color: #eb6b00; }
 .soma-tit {
-  font-family: "CoreCircus", sans-serif;
-  text-transform: uppercase;
-  font-size: 8vw; line-height: 10vw;
-  text-align: center;
-  top: 0%;
-  left: 5%;
-  /* transform: translate(-50%, -50%); */
-  position: absolute;
-  color: #ffffff;
+  font-family: "CoreCircus", sans-serif; font-size: 8vw; line-height: 10vw; color: #ffffff; text-align: center; text-transform: uppercase; 
   text-shadow: -1px -1px 0 #6e1f58, 1px -1px 0 #6e1f58, -1px 1px 0 #6e1f58, 1px 1px 0 #6e1f58, 1px 0px 0px #000000, 0px 1px 0px #000000, 2px 1px 0px #000000, 1px 2px 0px #65f283, 3px 2px 0px #000000, 2px 3px 0px #000000, 4px 3px 0px #000000, 3px 4px 0px #000000, 5px 4px 0px #000000, 3px 5px 0px #6e1f58, 6px 5px 0px #6e1f58, -1px 2px 0 black, 0 3px 0 #6e1f58, 1px 4px 0 #6e1f58, 2px 5px 0px #6e1f58, 2px -1px 0 #6e1f58, 3px 0 0 #6e1f58, 4px 1px 0 #6e1f58, 5px 2px 0px #6e1f58, 6px 3px 0 #6e1f58, 7px 4px 0 #6e1f58, 10px 10px 4px #dac249;
+  position: absolute;
+  top: 0%; left: 5%;
+  animation: heartbeat2 1.7s infinite;
 }
 /* artist */
 .artist-fix { width: 100px; }
@@ -1831,8 +1856,169 @@ body {
 }
 .soma-text-box p { font-weight: 600; font-size: 24px; line-height: 40px; color: #fff;}
 /* soma sec */
+/* figma sec */
 #panels-container #panel-4 { background-color: #51b1ff; }
+/* figma-tit */
+.figma-tit {
+  font-family: "CoreCircus", sans-serif; font-size: 10vw; line-height: 1; text-align: center;
+  text-transform: uppercase; text-shadow: 1px 0px 0px #67c2c5, 0px 1px 0px #67c2c5, 2px 1px 0px #67c2c5, 1px 2px 0px #67c2c5, 3px 2px 0px #67c2c5, 2px 3px 0px #67c2c5, 4px 3px 0px #67c2c5, 3px 4px 0px #67c2c5, 5px 4px 0px #67c2c5, 4px 5px 0px #67c2c5, 6px 5px 0px #67c2c5, 5px 6px 0px #67c2c5, 7px 6px 0px #67c2c5, 6px 7px 0px #67c2c5, 8px 7px 0px #aff1f9, 7px 8px 0px #aff1f9, 9px 8px 0px #aff1f9, 8px 9px 0px #aff1f9, 10px 9px 0px #aff1f9, 9px 10px 0px #aff1f9, 11px 10px 0px #aff1f9, 10px 11px 0px #aff1f9;
+  color: #61c0c8;
+  position: absolute;
+  top: 4%; left: 3%;
+  animation: heartbeat2 1.7s infinite;
+}
+.figma-tit:before, .figma-tit:after {
+  content: attr(data-heading);
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+}
+.figma-tit:before {
+  color: white;
+  width: 100%;
+  z-index: 5;
+  font-family: "CoreCircus2DIn";
+  font-weight: normal;
+}
+.figma-tit:after {
+  z-index: -1;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white, -3px 3px 2px #6c9d9e, -5px 5px 2px #6c9d9e, -7px 7px 2px #6c9d9e, -8px 8px 2px #6c9d9e, -9px 9px 2px #6c9d9e, -11px 11px 2px #6c9d9e;
+}
+/* figma-tit */
+.figma-img { 
+  width: 630px; height: 520px;
+  border: 8px solid #fff;
+  background-image: url(../img/figma-intro.png); background-size: cover; background-repeat: no-repeat;
+  box-shadow: 0 0 18px #000;
+  position: absolute; top: 35%; right: 22%;
+}
+.figma-text-box {
+  position: absolute; left: 15%; bottom:30%
+}
+.figma-text-box h1 { 
+  margin-bottom: 30px;
+  font-size: 50px; color: #fff;
+}
+.figma-text-box p { font-weight: 600; font-size: 24px; color: #fff; line-height: 40px;}
+.figma .connect { right: 65%;
+  bottom: 17%; }
+/* figma sec */
+/* graphic sec */
 #panels-container #panel-5 { background-color: #ebd400; }
+.graphic-tit {
+  font-family: "Rig Bold Face", sans-serif; font-weight: normal; font-size: 7vw; text-align: center; color: #91d4ff; text-transform: uppercase;
+  position: absolute;
+  top: 5%; left: 5%;
+  animation: heartbeat2 1.6s infinite;
+}
+.graphic-tit:before, .graphic-tit:after,
+.graphic-tit span:before,
+.graphic-tit span:after {
+  content: attr(data-heading);
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  font-weight: normal;
+  text-shadow: none;
+}
+.graphic-tit:before {
+  color: #fff;
+  font-family: "Rig Bold Inline", sans-serif;
+}
+.graphic-tit:after {
+  font-family: "Rig Bold Coarse", sans-serif;
+  color: #040351;
+}
+
+.graphic-tit-effect::before {
+  font-family: "Rig Bold Shadow", sans-serif;
+  color: #cbc7e3;
+  z-index: -1;
+}
+.graphic-tit-effect::after {
+  font-family: "Rig Bold Extrude", sans-serif;
+  color: #4d8bea;
+  z-index: -1;
+}
+.work { 
+  box-shadow: 0 0 18px #000;
+  position: absolute;
+  transition: all 0.3s;  
+}
+.photo1 {
+  width: 500px; height: 100px;
+  background-image: url(../img/banner1.png); background-size: cover;
+  left: 7%; top: 28%;
+}
+.photo2 {
+  width: 400px; height: 150px;
+  background-image: url(../img/banner2.png); background-size: cover;
+  left: 4%; top: 47%;
+}
+.photo3 {
+  width: 350px; height: 350px;
+  background-image: url(../img/promotion.png); background-size: cover;
+  position: absolute; left: 32%; top: 55%;
+}
+.photo-illu { 
+  width: 250px; height: 167px;
+  background-image: url(../img/pi.png); background-size: contain;
+  left: 8%; bottom: 10%;
+}
+.illu {
+  width: 300px; height: 450px;
+  background-image: url(../img/songinsu-isometric.png); background-size: cover;
+  bottom:14%; right: 23%;
+}
+.work::before {content: "";
+  width: 50px; height: 50px;
+  background-image: url(../img/photoshop.png); background-size: contain; background-repeat: no-repeat;
+  position: absolute; left: -5%;top: -20%;
+  animation: heartbeat2 2s infinite;
+}
+.photo3::before { top:-5%; }
+.illu::before { 
+  top: -5%;
+  background-image: url(../img/illustrator.png); 
+}
+.photo-illu::after { content: "";
+  width: 50px; height: 50px;
+  background-image: url(../img/illustrator.png); background-size: contain; background-repeat: no-repeat;
+  position: absolute; left: 17%;top: -20%;
+  animation: heartbeat2 2s infinite;
+}
+.work:hover { transform: scale(1.3); }
+/* svg */
+.maskText1,.maskText2{
+  text-anchor:middle;
+  font-family:"brandon-grotesque", Helvetica Neue, Arial,sans-serif;
+  font-weight:700;
+  font-size:42px;
+  letter-spacing:-1px;
+  cursor: pointer;
+  transform: translate( -2%, -12% );
+}
+
+.maskText3{
+  opacity:0
+}
+/* svg */
+
+.design-text-box {
+  position: absolute; left: 35%; top:22%;
+  z-index: -1;
+}
+.design-text-box h1 { 
+  margin-bottom: 20px;
+  font-size: 50px; color: #000;
+}
+.design-text-box p { font-weight: 800; font-size: 24px; color: #000; line-height: 40px;}
+
+/* graphic sec */
 #panels-container #panel-6 { background-color: #4d453f; }
 #panels-container #panel-7 { background-color: #9df077; }
 #panels-container .container { width: 100%;}
