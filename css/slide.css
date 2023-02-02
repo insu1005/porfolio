@@ -51,14 +51,14 @@ footer {height: 50vh}
   color: white;
 }
 
-.loader h1 { font-size: 100px; }
-.loader h2 { font-size: 80px; text-align: center; }
+.loader h1 { font-weight: 800 !important; font-size: 100px !important; }
+.loader h2 { font-weight: 700 !important; font-size: 80px !important; text-align: center; }
 
 /* loader-superman-css */
 
 .body {
   position: absolute;
-  top: 70%;
+  top: 80%;
   margin-left: -50px;
   left: 48%;
   animation: speeder 0.4s linear infinite;
