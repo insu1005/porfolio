@@ -291,12 +291,10 @@ canvas {
 /* profile picture effect */
 
 /* introduction-box */
-.introduction-box {display: flex;}
 .introduction-box figure { 
-  width: 100%;
-  margin-right: 10%;
-  position: relative; 
+  position: absolute; left: 4%; top:150%;
 }
+.introduction-box figure img { width: 90%;}
 .introduction-box figure canvas { 
   position: absolute; right: -26%; top: -2%;
 }
@@ -307,9 +305,9 @@ canvas {
 .introduction-box div p { font-weight: 600; font-size: 28px; line-height: 40px; }
 .introduction-box .me + .me {margin-top: 40px;}
 .intro-text-box { 
-  /* padding-top: 60px; */
   display: flex; 
   width: 100%;
+  position: relative; right: -37%;
 }
 .intro-text-box .personal-box { margin-right: 60px; }
 .skill-box { width: 100%; }

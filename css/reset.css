@@ -69,7 +69,7 @@ body {
 	overflow-x: hidden !important;
 	overflow-x: hidden;
 }
-a, em { font: inherit; text-decoration: none; color: inherit;}
+a, em { font: inherit; text-decoration: none !important; color: inherit !important;}
 ol, ul {
     list-style: none;
 }
