@@ -19,7 +19,7 @@ $(function () {
 
     $(".all-menu-close").on("click", function () {
       $(".all-menu-wrap").css({
-        top: "-100vh",
+        top: "-200%",
       });
     });
 
