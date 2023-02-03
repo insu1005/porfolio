@@ -50,9 +50,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 
 /* Insu-Song reset -S */
-/* html { 
-  min-width: 1920px; min-height: 1080px;
-} */
+
 html, body, div, span, h1, h2, h3, h4, h5, h6, p,  
 img, strong, ol, ul, li, fieldset, form, label, 
 legend footer, header, section {
@@ -64,10 +62,13 @@ legend footer, header, section {
 }
 h1 { font-weight: 700 !important; }
 body {
+  min-width: 1800px; 
+  min-height: 1080px;
 	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji; line-height: 1;
 	background-color: rgb(255, 230, 153);
-	overflow-x: hidden !important;
-	overflow-x: hidden;
+	/* overflow-x: hidden !important; */
+	/* overflow-Y: hidden; */
+  
 }
 a, em { font: inherit; text-decoration: none !important; color: inherit !important;}
 ol, ul {

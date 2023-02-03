@@ -1,11 +1,11 @@
-const tl = gsap.timeline({
-	scrollTrigger: {
-		trigger: "#hero",
-		start: "top top",
-		end: "bottom top",
-		scrub: true
-	}
-});
+// const tl = gsap.timeline({
+// 	scrollTrigger: {
+// 		trigger: "#hero",
+// 		start: "top top",
+// 		end: "bottom top",
+// 		scrub: true
+// 	}
+// });
 
 // gsap.utils.toArray(".parallax").forEach(layer => {
 // 	const depth = layer.dataset.depth;
